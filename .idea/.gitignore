@@ -1,0 +1,26 @@
+# 디폴트 무시된 파일
+/shelf/
+/workspace.xml
+# 에디터 기반 HTTP 클라이언트 요청
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# JetBrains IDE 설정 폴더 무시
+.idea/
+
+# Python 관련 불필요한 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 환경설정 파일 (개인 설정)
+.env
+.vscode/
+
+# Node.js 관련 (package-lock.json 제외 가능)
+node_modules/
+npm-debug.log
+yarn-error.log
